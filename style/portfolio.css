@@ -225,17 +225,36 @@ footer textarea {
 
 /* responsive media query  */
 
-.hide {
-    display: none;
-}
-
 @media screen and (max-width:576px) {
 
     .skills-container,
     .resume-container,
     footer,
+    nav,
+    nav>ul,
+    .banner,
     .about-items {
         flex-direction: column;
+    }
+
+    nav>ul {
+        gap: 20px;
+    }
+
+    .btn-primary {
+        margin-bottom: 20px;
+    }
+
+    .banner {
+        margin: 20px;
+    }
+
+    .banner-profile-pic {
+        width: 100%;
+    }
+
+    .header {
+        background-image: none;
     }
 
     footer,
